@@ -56,6 +56,7 @@ export const Item1 = () => {
       </div>
       <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 h-56 w-full rounded-2xl object-cover sm:h-72 md:h-96 lg:h-full">
         {/* slide-01 https://unsplash.com/photos/pl9DrjAMV6I LICENCE */}
+        <h1>iTens 1</h1>
         <Image
           className="h-56 w-full rounded-2xl object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
           src="/img/A_Rendah_01.png"

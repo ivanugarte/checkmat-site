@@ -28,3 +28,11 @@ a {
     background: black;
   }
 }
+
+.fondoPantalla {
+  background-image: url('/img/degradee_cinza_fundo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
