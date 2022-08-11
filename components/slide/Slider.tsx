@@ -1,8 +1,5 @@
-import { useEffect, useRef } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// import useIntersectionObserver from "../../hooks/useIntersectionObserver";
-// import { setState } from "../../store/store";
 import Items from "./Items";
 
 const responsive = {
@@ -17,23 +14,12 @@ const responsive = {
 };
 
 export default function Slider() {
-  // const elementRef = useRef<HTMLDivElement>(null);
-  // const isOnScreen = useIntersectionObserver(elementRef);
-
-  // useEffect(() => {
-  //   console.log("Slider", { isOnScreen });
-  //   setState({ home: isOnScreen });
-  // }, [isOnScreen]);
 
   return (
-    <div
-      className="mx-auto max-w-7xl px-4 pt-20 sm:px-6 lg:px-8 md:pt-24 min-h-screen"
-      // ref={elementRef}
-    >
       <Carousel
-        containerClass="h-full"
-        itemClass="h-full"
-        sliderClass="h-full"
+        containerClass="min-h-[177px] lg:h-[533px] sm:h-[177px] md:h-[350px] relative mt-4"
+        itemClass="min-h-[177px] lg:h-[533px] sm:h-[177px] md:h-[350px]"
+        sliderClass="min-h-[177px] lg:h-[533px] sm:h-[177px] md:h-[350px]"
         pauseOnHover={true}
         responsive={responsive}
         autoPlay={true}
@@ -48,6 +34,5 @@ export default function Slider() {
           <Item key={index} />
         ))}
       </Carousel>
-    </div>
   );
 }

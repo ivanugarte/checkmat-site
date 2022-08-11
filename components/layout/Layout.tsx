@@ -1,14 +1,17 @@
-// import Footer from "./footer/Footer";
 import Footer from "./footer/Footer";
 import Navbar from "./navbar/Navbar";
+import Flags from "./common/Flags";
 
 export const Layout = ({ children }) => {
-
   return (
     <>
       <Navbar />
-      {children}
-      <Footer /> 
+      <main>
+        {children}
+        <Flags />
+      </main>
+
+      <Footer />
     </>
   );
 };

@@ -1,54 +1,22 @@
-import React, { Fragment, useEffect, useRef, useState } from "react";
+import React, { Fragment } from "react";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-// import { useTranslation } from "next-i18next";
 
 import navNames from "./navNames.json";
 import Link from "next/link";
-// import { setState } from "../../../store/store";
-// import { LanguageSelector } from "../../common/LanguageSelector";
 
 export default function Navbar() {
-  //   const router = useRouter();
-  //   const { t } = useTranslation("common")
-
-  //   const [isMounted, setMounted] = useState(false);
-  //   const hash = useRef<string>(null);
-
-  //   const onHashChangeStart = (url) => {
-  //     hash.current = url;
-  //   };
-
-  // useEffect(() => {
-  //   if (isMounted) {
-  //     hash.current = `/${window.location.hash}`;
-  //   } else {
-  //     setMounted(true);
-  //   }
-  // }, [isMounted]);
-
-  // useEffect(() => {
-  //   router.events.on("hashChangeStart", onHashChangeStart);
-
-  //   return () => {
-  //     router.events.off("hashChangeStart", onHashChangeStart);
-  //   };
-  // }, [router.events]);
-
-  // const isActive = (href: string) => {
-  //   if (hash.current) return hash.current === href ? true : false;
-  //   return router.pathname === href;
-  // };
-
   return (
-    <Disclosure as="nav" className="bg-white shadow fixed w-full z-[1010] ">
+    <Disclosure
+      as="nav"
+      className="bg-white shadow fixed w-full z-[1010] relative"
+    >
       {({ open, close }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex justify-between h-16">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span className="sr-only">Open main menu</span>
@@ -59,7 +27,6 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              {/* <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"> */}
               <div className="flex">
                 <div className="navLogo flex flex-shrink-0 items-center">
                   <div className="relative block h-12 w-36">
@@ -80,13 +47,6 @@ export default function Navbar() {
                     >
                       <Link href={navName.href} scroll={false}>
                         <a
-                          // onClick={() => {
-                          //   setState({ clickToScroll: true });
-                          //   setTimeout(
-                          //     () => setState({ clickToScroll: false }),
-                          //     1000
-                          //   );
-                          // }}
                           className={`inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium)
                               ? "border-indigo-500 text-gray-900"
                               : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
