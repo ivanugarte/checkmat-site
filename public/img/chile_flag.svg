@@ -1,0 +1,31 @@
+<svg id="chileFlag" viewBox="0 0 195 120">
+  <defs>
+    <style>
+  .cls-1{fill:none;}
+  .cls-2{clip-path:url(#clip-path);}
+  .cls-3{fill:#fff;}.cls-4{fill:#2530a9;}.cls-5{fill:#c22623;}
+    </style>
+    <clipPath id="clip-path">
+      <rect className="cls-1" width="195" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="CHILE">
+    <g className="cls-2">
+      <rect className="cls-3" width="195" height="120"/>
+      <rect className="cls-4" width="56.87" height="120"/>
+      <rect className="cls-5" y="60" width="195" height="60"/>
+      <polygon className="cls-3" points="28.46 14.99 24.06 29.27 30.82 31.58 28.46 14.99"/>
+      <polygon className="cls-3" points="28.46 14.99 32.84 29.27 26.08 31.58 28.46 14.99"/>
+      <polygon className="cls-3" points="41.96 25.36 27.77 25.36 27.77 32.86 41.96 25.36"/>
+      <polygon className="cls-3" points="41.96 25.36 30.46 34.18 26.29 28.1 41.96 25.36"/>
+      <polygon className="cls-3" points="14.92 25.36 26.44 34.18 30.6 28.1 14.92 25.36"/>
+      <polygon className="cls-3" points="14.92 25.36 29.15 25.36 29.15 32.86 14.92 25.36"/>
+      <polygon className="cls-3" points="36.8 42.12 32.42 27.86 25.66 30.18 36.8 42.12"/>
+      <polygon className="cls-3" points="36.8 42.12 25.29 33.31 29.49 27.25 36.8 42.12"/>
+      <polygon className="cls-3" points="20.1 42.12 31.6 33.31 27.41 27.25 20.1 42.12"/>
+      <polygon className="cls-3" points="20.1 42.12 24.48 27.86 31.24 30.18 20.1 42.12"/>
+    </g>
+  </g>
+</svg>;
+
+
