@@ -47,7 +47,6 @@ export default function Flags() {
             src={"/img/logougarte.jpg"}
             layout="fill"
             objectFit="contain"
-            priority
             alt="Brasil flag"
           />
         </div>

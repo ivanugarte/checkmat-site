@@ -5,7 +5,7 @@ const people = [
     imageUrl:
       '/img/logougarte.jpg',
   },
- 
+
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
@@ -72,7 +72,7 @@ const people = [
     imageUrl:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
- 
+
 ]
 import Image from 'next/image'
 
@@ -92,7 +92,10 @@ export default function Example() {
               {people.map((person) => (
                 <li key={person.name}>
                   <div className="flex items-center space-x-4 lg:space-x-6">
-                    <Image className="w-16 h-16 rounded-full lg:w-20 lg:h-20" src={person.imageUrl} alt="" />
+                    <Image className="w-16 h-16 rounded-full lg:w-20 lg:h-20"
+                      layout="fill"
+                      objectFit="contain"
+                      src={person.imageUrl} alt="" />
                     <div className="font-medium text-lg leading-6 space-y-1">
                       <h3>{person.name}</h3>
                       <p className="text-indigo-600">{person.role}</p>

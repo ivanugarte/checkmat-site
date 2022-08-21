@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <Slider />
-      <People />
+      {/* <People /> */}
     </Layout>
   );
 }
