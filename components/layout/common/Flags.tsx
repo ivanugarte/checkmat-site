@@ -6,7 +6,7 @@ export default function Flags() {
       <div className="flex space-between ml-52">
         {/* <div className="flex space-between flex-row-reverse"> */}
         {/* <div className="flex-initial w-32 relative h-20"> */}
-        <div className="flex-initial w-52 relative">
+        <div className="flex-initial w-52 relative">  
           <Image
             src={"/img/rey.jfif"}
             layout="fill"
