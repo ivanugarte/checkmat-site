@@ -17,9 +17,9 @@ export default function Slider() {
 
   return (
       <Carousel
-        containerClass="min-h-[177px] lg:h-[533px] sm:h-[177px] md:h-[350px] relative mt-4"
-        itemClass="min-h-[177px] lg:h-[533px] sm:h-[177px] md:h-[350px]"
-        sliderClass="min-h-[177px] lg:h-[533px] sm:h-[177px] md:h-[350px]"
+        containerClass="min-h-[177px] lg:h-[533px] sm:h-[177px] md:h-[650px] relative mt-4"
+        itemClass="min-h-[177px] lg:h-[533px] sm:h-[177px] md:h-[650px]"
+        sliderClass="min-h-[177px] lg:h-[533px] sm:h-[177px] md:h-[650px]"
         pauseOnHover={true}
         responsive={responsive}
         autoPlay={true}

@@ -1,12 +1,23 @@
 [
   {
     "id": 1,
-    "name": "A Rendah",
+    "name": "Quien Somos",
     "href": "/"
   },
   {
     "id": 2,
-    "name": "Contato",
-    "href": "/contato"
+    "name": "Sucursales",
+    "href": "/"
+  },
+  {
+    "id": 3,
+    "name": "Fotos",
+    "href": "/"
+  },
+  {
+    "id": 4,
+    "name": "Contacto",
+    "href": "/"
   }
+
 ]

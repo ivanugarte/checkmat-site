@@ -29,9 +29,9 @@ export default function Navbar() {
               </div>
               <div className="flex">
                 <div className="navLogo flex flex-shrink-0 items-center">
-                  <div className="relative block h-12 w-36">
+                  <div className="relative block h-20 w-36">
                     <Image
-                      src="/img/Logotipo_Home.png"
+                      src="/img/logo1.png"
                       alt="Workflow"
                       layout="fill"
                       priority
