@@ -12,34 +12,22 @@ export const Item1 = () => {
   );
 };
 
-export const Item2 = () => {
-  return (
-    <Image
-      src="/img/unsplash5.jpg"
-      layout="fill"
-      objectFit="contain"
-      priority
-      alt=""
-    />
-  );
-};
+// export const Item2 = () => {
+//   return (
+//     <Image
+//       src="/img/unsplash5.jpg"
+//       layout="fill"
+//       objectFit="contain"
+//       priority
+//       alt=""
+//     />
+//   );
+// };
 
 export const Item3 = () => {
   return (
     <Image
       src="/img/pic4.jpg"
-      layout="fill"
-      objectFit="contain"
-      priority
-      alt=""
-    />
-  );
-};
-
-export const Item4 = () => {
-  return (
-    <Image
-      src="/img/unsplash1.jpg"
       layout="fill"
       objectFit="contain"
       priority
@@ -107,5 +95,5 @@ export const Item9 = () => {
 
 
 
-const Items = [Item1, Item2, Item3, Item4, Item5, Item6, Item7, Item8, Item9];
+const Items = [Item1, Item3, Item5, Item6, Item7, Item8, Item9];
 export default Items;
