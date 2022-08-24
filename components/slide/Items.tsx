@@ -39,7 +39,7 @@ export const Item3 = () => {
 export const Item5 = () => {
   return (
     <Image
-      src="/img/santaCruz01.jpg"
+      src="/img/designSpecial01.png"
       layout="fill"
       objectFit="contain"
       priority

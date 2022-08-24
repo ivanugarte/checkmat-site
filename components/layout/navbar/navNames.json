@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Quien Somos",
+    "name": "Nosotros",
     "href": "/"
   },
   {
@@ -11,13 +11,13 @@
   },
   {
     "id": 3,
-    "name": "Fotos",
-    "href": "/"
+    "name": "Galeria de Fotos",
+    "href": "/fotoGalery"
   },
   {
     "id": 4,
-    "name": "Contacto",
-    "href": "/"
+    "name": "Profesores",
+    "href": "/teacher"
   }
 
 ]

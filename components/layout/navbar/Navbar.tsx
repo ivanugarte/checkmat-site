@@ -30,6 +30,7 @@ export default function Navbar() {
               <div className="flex">
                 <div className="navLogo flex flex-shrink-0 items-center">
                   <div className="relative block h-20 w-36">
+                    <a href="/">
                     <Image
                       src="/img/logo1.png"
                       alt="Workflow"
@@ -37,6 +38,8 @@ export default function Navbar() {
                       priority
                       objectFit="contain"
                     />
+                  </a>
+                    
                   </div>
                 </div>
                 <div className="lg:pl-18 navDesktopItems hidden pl-4 sm:ml-6 sm:flex md:space-x-4 md:pl-4 lg:space-x-8 xl:pl-32">
@@ -85,7 +88,8 @@ export default function Navbar() {
             ))}
           </Disclosure.Panel>
         </>
-      )}
-    </Disclosure>
+  )
+}
+    </Disclosure >
   );
 }
