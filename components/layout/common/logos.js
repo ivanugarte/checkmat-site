@@ -23,7 +23,7 @@ const people = [
   {
     name: 'name1',
     imageUrl:
-      '/img/logoSantaCruz.jpg',
+      '/img/logosc.jpg',
     twitterUrl: '#',
     linkedinUrl: '#',
   },
