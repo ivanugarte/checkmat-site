@@ -38,28 +38,26 @@ export default function Teacher() {
             </h2>
 
             <p className="hidden text-gray-500 md:mt-4 md:block">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum saepe illum molestias soluta harum, modi temporibus culpa ab adipisci quidem.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum saepe illum molestias soluta harum, modi temporibus culpa ab adipisci quidem.
             </p>
             <div className="mt-4 md:mt-8">
               <a
                 href="#"
                 className="inline-block px-12 py-3 text-sm font-medium text-white transition rounded bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
               >
-                 Mas de Jose Jara
+                Mas de Jose Jara
               </a>
             </div>
           </div>
         </div>
-
-        <img
+        <Image
+          className="object-cover w-full h-56 sm:h-full"
           alt="#"
           src="/img/pic4.jpg"
-          className="object-cover w-full h-56 sm:h-full"
+          layout='fill'
+          objectFit="contain"
         />
       </aside>
-
-
-
     </Layout>
   )
 }

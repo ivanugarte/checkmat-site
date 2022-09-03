@@ -2,13 +2,15 @@ import Image from "next/image";
 
 export const Item1 = () => {
   return (
-    <Image
-      src="/img/pic6.jpg"
-      layout="fill"
-      objectFit="contain"
-      priority
-      alt=""
-    />
+    <a href="/teacher">
+      <Image
+        src="/img/pic6.jpg"
+        layout="fill"
+        objectFit="contain"
+        priority
+        alt=""
+      />
+    </a>
   );
 };
 
@@ -39,7 +41,7 @@ export const Item3 = () => {
 export const Item5 = () => {
   return (
     <Image
-      src="/img/designSpecial01.png"
+      src="/img/br_flag.svg"
       layout="fill"
       objectFit="contain"
       priority

@@ -51,10 +51,12 @@ export default function Teacher() {
           </div>
         </div>
 
-        <img
+        <Image
+          className="object-cover w-full h-56 sm:h-full"
           alt="#"
           src="/img/fefe.jpg"
-          className="object-cover w-full h-56 sm:h-full"
+          layout='fill'
+          objectFit="contain"
         />
       </aside>
 

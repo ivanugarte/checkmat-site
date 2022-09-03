@@ -88,7 +88,7 @@ const Video2 = () => (
       height="50vh"
       onReady={() => console.log("ready now")}
     />
-      {/* <h2>Start editing to see some magic happen {"\u2728"}</h2> */}
+    {/* <h2>Start editing to see some magic happen {"\u2728"}</h2> */}
   </div>
 );
 
@@ -129,7 +129,7 @@ export default function Teacher() {
           <div className="p-8 md:p-12 lg:px-16 lg:py-24">
             <div className="max-w-xl mx-auto text-center sm:text-left">
               <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
-                Guilherme Gigantinho "2G"
+                Guilherme Gigantinho 2G
               </h2>
 
               <p className="hidden text-gray-500 md:mt-4 md:block">
@@ -147,15 +147,17 @@ export default function Teacher() {
             </div>
           </div>
 
-          <img
-            alt="#"
-            src="/img/2g_01.jpg"
+          <Image
             className="object-cover w-full h-56 sm:h-full"
+            src="/img/2g_01.jpg"
+            layout='fill'
+            objectFit="contain"
+            alt=""
           />
         </aside>
         <PhotoGalery />
-        <Video1 />
-        <Video2 />
+        {/* <Video1 />
+        <Video2 /> */}
       </Layout>
     </>
   )
