@@ -238,23 +238,22 @@ function Banner() {
         src="/img/2g_03.jpg"
         alt="Couple on a bed with a dog"
       />
-
       <div className="hidden sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-white sm:to-transparent"></div>
 
       <div className="relative px-4 py-32 mx-auto max-w-screen-xl lg:h-screen lg:items-center lg:flex">
         <div className="max-w-xl text-center sm:text-left">
-          <h1 className="text-3xl font-extrabold sm:text-5xl">
-            Let us find your
+          <h1 className="text-2xl font-extrabold sm:text-5xl">
+          2G Jiu-jitsu
             <strong className="font-extrabold text-rose-700 sm:block">
-              Forever Home.
+              Guilherme Ribeiro
             </strong>
           </h1>
 
           <p className="max-w-lg mt-4 sm:leading-relaxed sm:text-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
+            Checkmat Santiago - Chile
           </p>
 
-          <div className="flex flex-wrap mt-8 text-center gap-4">
+          {/* <div className="flex flex-wrap mt-8 text-center gap-4">
             <a className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-rose-600 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring" href="/get-started">
               Get Started
             </a>
@@ -262,7 +261,7 @@ function Banner() {
             <a className="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-rose-600 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring" href="/about">
               Learn More
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
