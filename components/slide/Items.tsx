@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Item1 = () => {
   return (
-    <a href="/teacher">
+    <Link href="/teacher">
+    <a >
       <Image
         src="/img/pic6.jpg"
         layout="fill"
@@ -11,6 +13,7 @@ export const Item1 = () => {
         alt=""
       />
     </a>
+    </Link>
   );
 };
 

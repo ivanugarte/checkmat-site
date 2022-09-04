@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-
 import navNames from "./navNames.json";
 import Link from "next/link";
 
@@ -30,6 +29,7 @@ export default function Navbar() {
               <div className="flex">
                 <div className="navLogo flex flex-shrink-0 items-center">
                   <div className="relative block h-20 w-36">
+                    <Link href={""}>
                     <a href="/">
                     <Image
                       src="/img/logo1.png"
@@ -39,7 +39,7 @@ export default function Navbar() {
                       objectFit="contain"
                     />
                   </a>
-                    
+                  </Link>
                   </div>
                 </div>
                 <div className="lg:pl-18 navDesktopItems hidden pl-4 sm:ml-6 sm:flex md:space-x-4 md:pl-4 lg:space-x-8 xl:pl-32">

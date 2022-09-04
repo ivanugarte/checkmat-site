@@ -233,7 +233,7 @@ function PhotoGalery() {
 function Banner() {
   return (
     <section className="relative bg-white">
-      <img
+      <Image
         className="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100"
         src="/img/2g_03.jpg"
         alt="Couple on a bed with a dog"
