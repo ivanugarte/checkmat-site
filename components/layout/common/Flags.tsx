@@ -20,7 +20,7 @@ export default function Flags() {
               <li key={person.name}>
                 <div className="space-y-4">
                   <div className="aspect-w-3 aspect-h-2">
-                    <Image className="" src={person.imageUrl} alt="" layout='fill' objectFit="contain"
+                    <Image src={person.imageUrl} alt="" layout='fill' objectFit="contain"
                       priority />
                   </div>
                 </div>

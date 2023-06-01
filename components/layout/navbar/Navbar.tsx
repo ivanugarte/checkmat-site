@@ -27,16 +27,17 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex">
-                <div className="navLogo flex flex-shrink-0 items-center">
-                  <div className="relative block h-20 w-36">
+                <div className="navLogo flex flex-shrink-0 items-center ">
+                  <div className="relative block h-20 w-36 ">
                     <Link href={""}>
                     <a href="/">
                     <Image
-                      src="/img/logo1.png"
+                      src="/img/logo1_new.png"
                       alt="Workflow"
                       layout="fill"
                       priority
                       objectFit="contain"
+                      className="rounded-full"
                     />
                   </a>
                   </Link>
